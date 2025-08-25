@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TV Guide - Extra Page</title>
+
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background: #121212;
+      color: #eee;
+    }
+
+    header {
+      background: #ff6f00;
+      padding: 20px;
+      text-align: center;
+    }
+    header h1 { margin: 0; color: #fff; }
+
+    .content {
+      padding: 40px;
+      text-align: center;
+    }
+
+    .content h2 {
+      font-size: 28px;
+      margin-bottom: 15px;
+      color: #ffcc80;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 20px;
+      margin-top: 30px;
+    }
+
+    .box {
+      background: #1e1e1e;
+      padding: 20px;
+      border-radius: 12px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.5);
+      transition: transform 0.3s;
+    }
+    .box:hover {
+      transform: translateY(-8px);
+      background: #2c2c2c;
+    }
+
+    footer {
+      margin-top: 40px;
+      background: #000;
+      padding: 15px;
+      text-align: center;
+      color: #888;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>🔥 Extra TV Guide Page</h1>
+  </header>
+
+  <div class="content">
+    <h2>Explore More Streaming Apps</h2>
+    <p>This page has a different dark theme look.</p>
+
+    <div class="grid">
+      <div class="box">📺 Disney+ Guide</div>
+      <div class="box">🎬 HBO Max Guide</div>
+      <div class="box">🍿 Apple TV+ Guide</div>
+      <div class="box">🎶 Spotify on TV</div>
+    </div>
+  </div>
+
+  <footer>
+    © 2025 TV Guide | Designed in Dark Theme
+  </footer>
+
+</body>
+</html>
